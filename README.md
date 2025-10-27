@@ -1,12 +1,46 @@
-# Taller Vagrant + Provisionamiento con Shell
+#Proyecto: Vagrant con Provisionamiento mediante Shell
 
-## Pasos
-1. Clonar este repositorio.
-2. Ejecutar `vagrant up` para levantar las máquinas.
-3. Acceder a la máquina web en: http://192.168.56.10
-4. Verificar `index.html` y `info.php`.
+Autor: Sebastián Manrique
+Fecha: 27/10/2025
 
-## Reto
-- Completar `provision-db.sh` para instalar PostgreSQL.
-- Crear una base de datos y tabla.
-- Conectar la página PHP a la base de datos y mostrar datos.
+🧩Descripción
+
+Este proyecto crea un entorno de desarrollo con dos máquinas virtuales usando Vagrant:
+
+web: Servidor Apache + PHP.
+db: Servidor PostgreSQL con base de datos de ejemplo.
+
+🚀Pasos de instalación
+
+Clonar el repositorio:
+git clone https://github.com/sebastianmanrique-0731/vagrant-web-provisioning.git
+
+-Ejecutar vagrant up, para ejecutar la maquina
+
+Ingresar a la carpeta:
+cd vagrant-web-provisioning
+
+Levantar las máquinas:
+
+1. Levantar solo la máquina web
+vagrant up web 
+
+2. Levantar solo la máquina de base de datos
+vagrant up db
+
+
+🧩 Scripts utilizados
+
+-provision-web.sh: Instala Apache y PHP en la máquina web.
+![alt text](image-3.png)
+
+-provision-db.sh: Instala PostgreSQL, crea la base de datos y carga datos de ejemplo.
+![alt text](image-2.png)
+
+🖥️ Aplicación funcionando
+
+Página principal: http://192.168.56.10
+![alt text](image-1.png)
+
+
+Script PHP con datos desde PostgreSQL: http://192.168.56.10/info.php
