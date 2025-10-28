@@ -1,4 +1,4 @@
-#Proyecto: Vagrant con Provisionamiento mediante Shell
+#Proyecto: vagrant con Provisionamiento mediante Shell
 
 Autor: Sebastián Manrique Mejia
 Fecha: 27/10/2025
