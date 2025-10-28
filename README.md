@@ -1,6 +1,6 @@
 #Proyecto: Vagrant con Provisionamiento mediante Shell
 
-Autor: Sebastián Manrique
+Autor: Sebastián Manrique Mejia
 Fecha: 27/10/2025
 
 🧩Descripción
@@ -13,7 +13,7 @@ db: Servidor PostgreSQL con base de datos de ejemplo.
 🚀Pasos de instalación
 
 Clonar el repositorio:
-git clone https://github.com/sebastianmanrique-0731/vagrant-web-provisioning.git
+git clone https://github.com/sebastianmejia0731/vagrant-web-provisioning.git
 
 -Inciar con vagrant up, para ejecutar la maquina
 
@@ -28,6 +28,14 @@ vagrant up web
 2. Levantar solo la máquina de base de datos
 vagrant up db
 
+correcion de las respectivas ip del vagrantfile 
+![alt text](image-4.png)
+
+personalizacion del index,html 
+![alt text](image-5.png)
+
+-En este apartado el info.php con sus modificaciones 
+![alt text](image-6.png)
 
 🧩 Scripts utilizados
 
