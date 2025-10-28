@@ -15,7 +15,7 @@ db: Servidor PostgreSQL con base de datos de ejemplo.
 Clonar el repositorio:
 git clone https://github.com/sebastianmanrique-0731/vagrant-web-provisioning.git
 
--Ejecutar vagrant up, para ejecutar la maquina
+-Inciar con vagrant up, para ejecutar la maquina
 
 Ingresar a la carpeta:
 cd vagrant-web-provisioning
@@ -44,3 +44,4 @@ Página principal: http://192.168.56.10
 
 
 Script PHP con datos desde PostgreSQL: http://192.168.56.10/info.php
+![alt text](image.png)
